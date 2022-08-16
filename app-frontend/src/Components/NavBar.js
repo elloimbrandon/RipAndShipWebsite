@@ -4,7 +4,6 @@ import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import { useState } from "react";
-import BannerText from "./BannerText";
 
 const NavBar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -26,7 +25,6 @@ const NavBar = () => {
             <Box display="flex" flexGrow={1}>
               <div>
                 <h1>PokemonKidwiththeHits</h1>
-                <h1>Hello</h1>
               </div>
             </Box>
             <Button variant="contained" onClick={openMenu}>
@@ -54,7 +52,6 @@ const NavBar = () => {
           </Toolbar>
         </AppBar>
       </div>
-      <BannerText />
     </>
   );
 };

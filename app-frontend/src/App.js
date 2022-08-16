@@ -18,6 +18,7 @@ import {
 // import { orange } from "@mui/material/colors";
 // import { useState } from "react";
 import NavBar from "./Components/NavBar";
+import BannerText from "./Components/BannerText";
 
 // const axios = require("axios");
 
@@ -60,6 +61,7 @@ function App() {
     <>
       {/* <div className="flex flex-col overflow-hidden h-screen border w-full"> */}
       <NavBar />
+      <BannerText />
       <div className="flex flex-col items-center align-center h-full justify-center border">
         <h1 className="text-3xl">Hello World!</h1>
         <ButtonGroup>
